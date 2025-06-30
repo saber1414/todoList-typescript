@@ -16,7 +16,7 @@ const App: React.FC = () => {
   }, [todos]);
 
   // add todos
-  const addTodo = (e: React.FocusEvent<HTMLFormElement>): void => {
+  const addTodo = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     if (!input.trim()) return;
     const newTodo: Todo = {

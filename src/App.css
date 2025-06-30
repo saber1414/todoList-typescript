@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 * {
   font-family: "Poppins", sans-serif;
